@@ -6,9 +6,9 @@
 - installs to /usr/local on macOS (because of SIP; was written by me)
 - [Improving MacOS M1 CPU/GPU prints](https://github.com/wxllow/basedfetch/commit/75619edf01dd42b100afd263ba1f4b88d50faaa0)
 
-### AmogOS
+### Linux Distros
 - [amogfetch (amogos support for neofetch)](https://github.com/CrackedMatter/amogfetch)
-
+- [Support for MIRACLE LINUX](https://github.com/dylanaraps/neofetch/pull/2085)
 
 ## Install
 
