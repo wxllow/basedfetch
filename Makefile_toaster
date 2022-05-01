@@ -1,0 +1,15 @@
+MANDIR = ${prefix}/share/man
+
+all:
+	@echo Run \'make install\' to install Neofetch.
+
+install:
+	@mkdir -p ${prefix}/bin
+	@mkdir -p ${prefix}/man1
+	@cp -p neofetch ${prefix}/bin/neofetch
+	@cp -p neofetch.1 ${prefix}/man1
+	@chmod 755 ${prefix}/bin/neofetch
+
+uninstall:
+	@rm -rf ${prefix}/bin/neofetch
+	@rm -rf ${prefix}/man1/neofetch.1*
